@@ -29,3 +29,11 @@ Transactions table(Master Table) where we have TransactionID,CustomerID,ProductI
        ○ Quantity: Quantity of the product purchased.
        ○ TotalValue: Total value of the transaction.
        ○ Price: Price of the product sold.
+
+
+## Clustering:
+
+![image](https://github.com/user-attachments/assets/96f13a43-67f7-4a6c-99f8-495a866d4fbe)
+
+
+                 ○ I started with merging the **Customers** and **Transactions** relations.
