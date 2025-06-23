@@ -6,20 +6,20 @@ Product table where we have ProductID,Product Name,Category,Price for every prod
 Transactions table(Master Table) where we have TransactionID,CustomerID,ProductID,Transaction Date,Quantity,Total Value,Price.
 
 ## Explaining Columns:
-1. **Customers.csv** (Link)[https://drive.google.com/file/d/1hG0FoFjoTjyiRWSoGCauFsTFOXVghtqA/view?usp=sharing]:
+1. **Customers.csv** [Link](https://drive.google.com/file/d/1hG0FoFjoTjyiRWSoGCauFsTFOXVghtqA/view?usp=sharing):
 
        ○ CustomerID: Unique identifier for each customer.
        ○ CustomerName: Name of the customer.
        ○ Region: Continent where the customer resides.
        ○ SignupDate: Date when the customer signed up.
-2. **Products.csv**(Link)[https://drive.google.com/file/d/1ud90txvMDhXGRBysyITP8JKD33bkNQBz/view?usp=sharing]:
+2. **Products.csv**[Link](https://drive.google.com/file/d/1ud90txvMDhXGRBysyITP8JKD33bkNQBz/view?usp=sharing):
 
 
        ○ ProductID: Unique identifier for each product.
        ○ ProductName: Name of the product.
        ○ Category: Product category.
        ○ Price: Product price in USD.
-3. **Transactions.csv**(Link)[https://drive.google.com/file/d/1APPb4FntbrTa3fMlqjLMLc5PWKJe3rOs/view?usp=sharing]:
+3. **Transactions.csv**[Link](https://drive.google.com/file/d/1APPb4FntbrTa3fMlqjLMLc5PWKJe3rOs/view?usp=sharing):
 
 
        ○ TransactionID: Unique identifier for each transaction.
