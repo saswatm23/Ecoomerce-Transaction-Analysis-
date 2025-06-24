@@ -36,4 +36,20 @@ Transactions table(Master Table) where we have TransactionID,CustomerID,ProductI
 ![image](https://github.com/user-attachments/assets/96f13a43-67f7-4a6c-99f8-495a866d4fbe)
 
 
-                 ○ I started with merging the **Customers** and **Transactions** relations.
+                 ○ Merged the Customers and Transactions datasets to create a unified view of customer behavior.
+
+                 ○ Conducted thorough null value checks and handled missing data appropriately.
+
+                 ○ Extracted additional time-based features (Day, Month, Year, Hour, Minute, Second) from the TransactionDate column to enrich the dataset.
+
+                 ○ Applied MinMaxScaler to normalize feature values and ensure that features with larger ranges did not dominate the clustering algorithm.
+
+                 ○ Implemented K-Means clustering to segment customers based on transactional behavior.
+
+                 ○ Evaluated clustering performance using:
+
+                 ○ Elbow Method to determine the optimal number of clusters.
+
+                 ○ Silhouette Score and Davies-Bouldin Score to assess clustering quality.
+
+                 ○ Based on the evaluation, finalized the model with 4 distinct clusters.
