@@ -36,6 +36,7 @@ Transactions table(Master Table) where we have TransactionID,CustomerID,ProductI
 ![image](https://github.com/user-attachments/assets/96f13a43-67f7-4a6c-99f8-495a866d4fbe)
 
 
+### Project Workflow Summary:
                  ○ Merged the Customers and Transactions datasets to create a unified view of customer behavior.
 
                  ○ Conducted thorough null value checks and handled missing data appropriately.
