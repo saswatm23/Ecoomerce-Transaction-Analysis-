@@ -54,3 +54,40 @@ Transactions table(Master Table) where we have TransactionID,CustomerID,ProductI
                  ○ Silhouette Score and Davies-Bouldin Score to assess clustering quality.
 
                  ○ Based on the evaluation, finalized the model with 4 distinct clusters.
+
+
+##  Customer Lookalike Modeling using Cosine Similarity
+
+### Project Workflow Summary:
+
+
+Data Ingestion:
+
+       ○ Loaded Customers, Products, and Transactions datasets using Pandas.
+
+       ○ Merged the datasets on CustomerID and ProductID to create a unified transactional dataset.
+
+Data Preparation:
+
+       ○ Dropped redundant columns and standardized column names.
+
+       ○ Converted SignupDate and TransactionDate to datetime format for temporal analysis.
+
+       ○ Extracted Month, Day, Hour, Minute, and Seconds from the TransactionDate for feature enrichment.
+
+Feature Engineering:
+
+       ○ Used one-hot encoding (get_dummies) on categorical variables such as Region and Category.
+
+       ○ Selected key numerical and time-based features (Price, Quantity, TotalValue, and time components).
+
+Data Scaling:
+
+       ○ Applied StandardScaler to normalize the features and ensure uniform weightage during similarity computation.
+
+Similarity Modeling:
+
+       ○ Computed cosine similarity between all customer feature vectors to quantify behavioral similarity.
+
+       ○ Implemented a function to retrieve the Top 3 lookalike customers for any given CustomerID, based on similarity scores.
+
